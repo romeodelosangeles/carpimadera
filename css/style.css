@@ -559,13 +559,13 @@ body {
 
 .whatsapp-con {
     position: fixed;    
-    right: 0;
+    right: 0.5%;
     bottom: 10px;
 }
 
 .face-con {
     position: fixed;    
-    right: 0;
+    right: 0.5%;
     bottom: 65px;
 }
 
