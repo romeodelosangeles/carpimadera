@@ -196,12 +196,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 25px;
     margin: auto;
 }
 
 .main-title {       
-    font-size: 28px;
+    font-size: 25px;
     font-family: var(--title-font);    
     text-shadow: 2.5px 2.5px var(--primary-color);    
     color: var(--grey-color);
@@ -351,7 +351,7 @@ body {
 
 .flyer-link {
     font-family: var(--text-font);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: var(--grey-color);
     padding: 0px 50px;  
@@ -423,7 +423,7 @@ body {
 }
 
 .promos-title  {
-    font-size: 32px;
+    font-size: 25px;
     font-weight: bold;
     font-family: var(--title-font);
     color: var(--other-grey);
@@ -559,13 +559,13 @@ body {
 
 .whatsapp-con {
     position: fixed;    
-    left: 97%;
+    right: 0;
     bottom: 10px;
 }
 
 .face-con {
     position: fixed;    
-    left: 97%;
+    right: 0;
     bottom: 65px;
 }
 
