@@ -176,6 +176,10 @@ body {
     color: var(--fifth-color);
 }
 
+.active {
+    color: var(--fifth-color);
+}
+
 /* End Header */
 
 /* Main */ 
