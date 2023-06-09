@@ -810,11 +810,7 @@ body {
     .header-nav {
         justify-content: space-between;
         padding: 0 20px;
-    }
-
-    .header-menu {
-        display: none;
-    }
+    }   
 
     .header-menu {
         width: 100%;
@@ -860,7 +856,7 @@ body {
 
     .main-cotiza {
         font-size: 18px;
-    }
+    }   
 
     .numbers-txt {
         font-size: 16px;
@@ -872,8 +868,7 @@ body {
     
     .carpiextra {        
         justify-content: center;
-        flex-direction: column;
-        
+        flex-direction: column;        
     }
     
     .card {
@@ -890,12 +885,15 @@ body {
     }
 
     .flyer {
+        width: 350px;
         height: 120px;
         flex-direction: column;        
         gap: 20px;
+        margin: auto;
     }
 
     .flyer-title {
+        text-align: center;
         font-size: 18px;
     }
 
@@ -905,38 +903,43 @@ body {
     }
 
     .promos-con {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .promos-title {
+        font-size: 20px;
     }
 
     .promos1 {        
         grid-column: 1 / 2;
-        grid-row: 1 / 1;        
+        grid-row: 1 / 2;        
     }
         
     .promos2 {
-        grid-column: 1 / 2;
-        grid-row: 2 / 2;        
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;        
     }
 
     .promos3 {        
-        grid-column: 1 / 2;
-        grid-row: 3 / 3;         
+        grid-column: 2 / 3;
+        grid-row: 2 / 2;         
     }
 
     .promos4{        
         grid-column: 1 / 2;
-        grid-row: 4 / 4;          
+        grid-row: 2 / 2;
+        order: 3;       
     }
 
     .promos5 {
         grid-column: 1 / 2;
-        grid-row: 5 / 5;
+        grid-row: 3 / 3;
     }
 
     .promos6 {
-        grid-column: 1 / 2;
-        grid-row: 6 / 6;
+        grid-column: 2 / 3;
+        grid-row: 3 / 3;
     }
 
     .footer-con {
@@ -972,21 +975,26 @@ body {
 }
 
 @media screen and (min-width: 280px) and (max-width: 374px) {
-    .header-nav {
+    
+    .carpiheader {
+        height: 50px;
+    }
+    
+    .header-nav {        
         justify-content: space-between;
         padding: 0 20px;
     }
 
-    .header-menu {
-        display: none;
-    }
+    .carpilogo {
+        width: 70%;
+    }   
 
     .header-menu {
         width: 100%;
         height: 230px;
         background-color: var(--primary-color);
         position: fixed;
-        top: 70px;
+        top: 50px;
         left: 0;
         display: flex;
         justify-content: center;        
@@ -1019,12 +1027,12 @@ body {
     }
     
     .main-title {
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
     }
 
     .main-cotiza {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .numbers-con {
@@ -1061,7 +1069,8 @@ body {
         font-size: 16px;
     }
 
-    .flyer {        
+    .flyer {    
+        width: 270px;    
         height: 120px;
         flex-direction: column;        
         gap: 10px;
@@ -1069,7 +1078,7 @@ body {
 
     .flyer-title {
         text-align: center;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .flyer-link {
@@ -1122,7 +1131,7 @@ body {
         justify-content: center;
         flex-direction: column;
         gap: 10px;
-        margin: 0;      
+        margin: auto;      
     }
 
     .footerdir {
@@ -1132,7 +1141,7 @@ body {
     .footertxt {
         width: 280px;    
         text-align: center;
-        font-size: 11px;
+        font-size: 12px;
     }
 
     .footerimg {

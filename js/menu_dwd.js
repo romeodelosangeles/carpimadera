@@ -1,4 +1,4 @@
-// DWD 2021
+// DWD 2023
 
 (() => {
 const $btnMenu = document.querySelector(".btn-menu"),
@@ -13,7 +13,7 @@ const $btnMenu = document.querySelector(".btn-menu"),
 
 $headerMenu.addEventListener("click", (e) => {
         e.preventDefault();
-        if(!e.target.matches) return false;
+        if(!e.target.matches(".header-menu .menu-link")) return false;
         $btnMenu.firstElementChild.classList.toggle("none");
         $btnMenu.lastElementChild.classList.toggle("none");
         $headerMenu.classList.toggle("visible");   
