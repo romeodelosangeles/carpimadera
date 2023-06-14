@@ -11,8 +11,7 @@ const $btnMenu = document.querySelector(".btn-menu"),
         $headerMenu.classList.toggle("visible");    
     });
 
-$headerMenu.addEventListener("click", (e) => {
-        e.preventDefault();
+$headerMenu.addEventListener("click", (e) => {        
         if(!e.target.matches(".header-menu .menu-link")) return false;
         $btnMenu.firstElementChild.classList.toggle("none");
         $btnMenu.lastElementChild.classList.toggle("none");
