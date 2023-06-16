@@ -242,6 +242,14 @@ body {
     background-color: var(--cotiza-blue);
     text-shadow: 2px 2px 1.5px var(--primary-color);
     box-shadow: 2px 2px 1.7px var(--primary-color);
+    transition: .3s ease-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main-cotiza:hover {
+    transform: scale(1.1);
+    background-color: #0048B7;
 }
 
 /* End Main */
@@ -520,14 +528,14 @@ body {
     margin: auto;
 }
 
-.footerdir {
-    width: 366px;  
+.footerdir {    
     color: var(--grey-color);
     font-size: 14px;
     font-family: var(--text-font);
     font-weight: 300;
     line-height: 1.5em;
     letter-spacing: 1px;
+    text-align: left;   
 }
 
 .footertxt {    
@@ -645,6 +653,13 @@ body {
 }
 
 @media screen and (min-width: 768px) and (max-width: 960px) {
+
+    .visible {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);  
+    }
+
     .main-hero {
         padding: 0 30px;
         flex-direction: column;    
@@ -688,6 +703,12 @@ body {
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
+
+    .visible {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);  
+    }
     
     .main-hero {
         padding: 0 30px;

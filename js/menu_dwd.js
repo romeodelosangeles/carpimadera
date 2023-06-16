@@ -16,6 +16,6 @@ $headerMenu.addEventListener("click", (e) => {
         $btnMenu.firstElementChild.classList.toggle("none");
         $btnMenu.lastElementChild.classList.toggle("none");
         $headerMenu.classList.toggle("visible");   
-});
+    });
 
 })();

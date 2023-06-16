@@ -209,7 +209,7 @@ body {
 .main-con {
     position: relative;
     width: 100%;    
-    height: 270px;        
+    height: 230px;        
 }
 
 .main-hero {
@@ -390,8 +390,7 @@ body {
     margin: auto;
 }
 
-.footerdir {
-    width: 250px;  
+.footerdir {    
     color: var(--grey-color);
     font-size: 14px;
     font-family: var(--text-font);
